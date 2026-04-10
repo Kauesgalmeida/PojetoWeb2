@@ -14,6 +14,7 @@
 
 .form{
     width: 60vw;
+    width-max: 350px;
     height: 60vh;
     display: flex;
     justify-content: center;
