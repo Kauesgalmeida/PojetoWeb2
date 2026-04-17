@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="email" id="email" name="email" required><br><br>
 
                 <label for="telefone">Telefone:</label><br>
-                <input type="text" id="telefone" name="telefone" required><br><br>
+                <input type="text" id="telefone" name="telefone" pattern="^\([1-9]{2}\)[0-9]{4}\-[0-9]{4}$" required><br><br>
 
                 <button type="submit">Cadastrar</button>
 
